@@ -1,6 +1,6 @@
 # credit-risk-Analysis-Report
 Overview:
-The purpose of this analysis is to make prediction on loan status (healthy or high-risk) based on various features of the loan. The analysis is ultilizing logistic regression model by training it to use the data and make predictions. To test the module performance, we also resampled the data by using RandomOverSampler and tested it's performation.
+The purpose of this analysis is to make prediction on loan status (healthy or high-risk) based on various features of the loan. The analysis is ultilizing logistic regression model by training it to use the data and making predictions. To test the module performance, we also resampled the data by via RandomOverSampler and made comparison.
 
 
 Results:
