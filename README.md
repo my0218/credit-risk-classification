@@ -4,18 +4,15 @@ The purpose of this analysis is to make prediction on loan status (healthy or hi
 
 
 Results:
---Logistic Regression Model with Original Data:
-   Accuracy Score: The accuracy score of the model on the testing data is not explicitly mentioned in the code.
-   Precision Score: The precision score for the healthy loan (label 0) is 1.00, indicating that all predicted healthy loans are correct. For high-risk loans 
-   (label 1), the precision score is 0.87, suggesting that 87% of predicted high-risk loans are correct.
-    Recall Score: The recall score for both healthy loan (label 0) and high-risk loan (label 1) is 1.00, indicating that the model correctly identifies all 
-    instances of both classes.
---Logistic Regression Model with Resampled Training Data:
-   Accuracy Score: The accuracy score of the model on the testing data is not explicitly mentioned in the code.
-   Precision Score: The precision score for the healthy loan (label 0) is 1.00, indicating perfect precision. For high-risk loans (label 1), the precision score 
-   is 0.87, suggesting that 87% of predicted high-risk loans are correct.
-  Recall Score: The recall score for both healthy loan (label 0) and high-risk loan (label 1) is 1.00, indicating that the model correctly identifies all 
-  instances of both classes.
+1. Logistic Regression Model with Original Data:
+   --Accuracy Score: The accuracy score of the model on the testing data is 0.99 on f1-score.
+   --Precision Score: The precision score for the healthy loan (label 0) is 1.00, indicating that all predicted healthy loans are correct. For high-risk loans (label 1), the precision score is 0.87, suggesting that 87% of predicted high-risk loans are correct.
+    --Recall Score: The recall score for both healthy loan (label 0) is 1.00 while the one for high-riak loan (label 1) is 0.89 indicating that the model correctly identifies all instances of healthy loan but lower instances of high-risk loan.
+
+2. Logistic Regression Model with Resampled Training Data:
+   --Accuracy Score: The accuracy score of the model on the testing data is 1.0 on f1-score.
+   --Precision Score: The precision score for the healthy loan (label 0) is 1.00, indicating perfect precision. For high-risk loans (label 1), the precision score is 0.87, suggesting that 87% of predicted high-risk loans are correct.
+  --Recall Score: The recall score for both healthy loan (label 0) and high-risk loan (label 1) is 1.00, indicating that the model correctly identifies all instances of both classes.
 
 
 Summary:
